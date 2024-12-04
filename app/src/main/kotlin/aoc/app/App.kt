@@ -2,6 +2,7 @@ package aoc.app
 
 import aoc.app.aoc22.Day1AOC2022
 import aoc.app.aoc22.Day2AOC2022
+import aoc.app.aoc23.*
 
 
 enum class Task {
@@ -15,8 +16,6 @@ enum class Task {
     AOC_2023_D6,
     AOC_2023_D7,
     AOC_2023_D8,
-    AOC_2023_D9,
-    AOC_2023_D10,
 }
 
 fun main() {
@@ -31,9 +30,10 @@ fun main() {
             Task.AOC_2023_D5 to Day5()::solve,
             Task.AOC_2023_D6 to Day6()::solve,
             Task.AOC_2023_D7 to Day7()::solve,
+            Task.AOC_2023_D8 to Day8()::solve,
         )
 
-    tasks[Task.AOC_2023_D6]?.invoke()
+    tasks[Task.AOC_2023_D8]?.invoke()
 }
 
 

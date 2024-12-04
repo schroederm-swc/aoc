@@ -1,5 +1,6 @@
-package aoc.app
+package aoc.app.aoc23
 
+import aoc.app.Utils
 import kotlin.streams.asStream
 
 private const val FILE_AOC_2023_5_1 = "/aoc-2023-5-1-input.txt"
@@ -89,7 +90,7 @@ class Day5 {
     }
 
     // source range start, dest range start, range length
-    private fun splitLineToTriple(line: String): Mapping{
+    private fun splitLineToTriple(line: String): Mapping {
         // input is dest range start, source range start, range length
         val split = line.trim().split(" ")
         return Triple(

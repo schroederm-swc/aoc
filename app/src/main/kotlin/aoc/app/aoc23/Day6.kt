@@ -1,5 +1,6 @@
-package aoc.app
+package aoc.app.aoc23
 
+import aoc.app.Utils
 import kotlin.math.*
 
 private const val FILE_AOC_2023_6 = "/aoc-2023-6-input.txt"

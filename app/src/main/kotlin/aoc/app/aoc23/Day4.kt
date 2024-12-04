@@ -1,5 +1,6 @@
-package aoc.app
+package aoc.app.aoc23
 
+import aoc.app.Utils
 import kotlin.math.pow
 
 

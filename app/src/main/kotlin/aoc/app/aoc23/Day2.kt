@@ -1,4 +1,6 @@
-package aoc.app
+package aoc.app.aoc23
+
+import aoc.app.Utils
 
 
 private const val FILE_AOC_2023_2_1 = "/aoc-2023-2-1-input.txt"

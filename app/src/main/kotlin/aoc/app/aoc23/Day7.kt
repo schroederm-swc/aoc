@@ -1,4 +1,6 @@
-package aoc.app
+package aoc.app.aoc23
+
+import aoc.app.Utils
 
 private const val FILE_AOC_2023_7_1 = "/aoc-2023-7-1-input.txt"
 private const val FILE_AOC_2023_7_2 = "/aoc-2023-7-2-input.txt"
@@ -24,7 +26,7 @@ class Day7 {
         println("Total sum of winnings joker: $winnings2")
     }
 
-    private fun compareHands(h1:Hand, h2:Hand, enableJoker: Boolean): Int {
+    private fun compareHands(h1: Hand, h2: Hand, enableJoker: Boolean): Int {
         val rating1 = getHandRating(h1.first, enableJoker)
         val rating2 = getHandRating(h2.first, enableJoker)
 

@@ -11,5 +11,9 @@ class Utils {
             }
             return lines.orEmpty()
         }
+
+        fun stringToLines(content: String) : List<String> {
+            return content.split("\n")
+        }
     }
 }
