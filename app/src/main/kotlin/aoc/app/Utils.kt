@@ -15,5 +15,10 @@ class Utils {
         fun stringToLines(content: String) : List<String> {
             return content.split("\n")
         }
+
+        fun resourceToCharMatrix(filename: String) : List<List<Char>> {
+            val lines = resourceToLines(filename)
+            return lines.map { it.toList() }
+        }
     }
 }
